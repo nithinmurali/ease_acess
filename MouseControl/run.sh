@@ -1,0 +1,1 @@
+gcc -o MouseControl MouseControl.cpp -I/opt/Area51/OpenNI/NiTE-2.0.0/Include -L/opt/Area51/OpenNI/NiTE-2.0.0/Redist -lNiTE2 -I/opt/Area51/OpenNI/OpenNI-2.1.0-x64/Include -L/opt/Area51/OpenNI/OpenNI-2.1.0-x64/Redist -lOpenNI2 -I/opt/Area51/OpenNI/NiTE-2.0.0/Samples/Common

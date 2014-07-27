@@ -2,3 +2,6 @@
 b-0-57
 g-0-56
 r-88-255
+
+git commit --amend --reset-author
+76 76 90
