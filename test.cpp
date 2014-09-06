@@ -98,7 +98,7 @@ int mx=0,my=0;
    if (iLastX >= 0 && iLastY >= 0 && posX >= 0 && posY >= 0)
    {
     //Draw a red line from the previous point to the current point
-    line(imgLines, Point(posX, posY), Point(iLastX, iLastY), Scalar(0,0,255), 2);
+  /*  line(imgLines, Point(posX, posY), Point(iLastX, iLastY), Scalar(0,0,255), 2);
     cmd = "xdotool mousemove " ;
     mx= ((double(double(iLastX)/640))*1365);
     oss << mx;  
@@ -112,7 +112,7 @@ int mx=0,my=0;
     cout<<cmd<<endl;
     cout<<iLastX<<endl;
     cout<<iLastY<<endl<<endl;
-    
+    */
     const char * c = cmd.c_str();
     system(c);
    }

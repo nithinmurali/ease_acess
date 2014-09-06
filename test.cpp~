@@ -114,7 +114,7 @@ int mx=0,my=0;
     cout<<iLastY<<endl<<endl;
     
     const char * c = cmd.c_str();
-    //system(c);
+    system(c);
    }
 
     iLastX = posX;
